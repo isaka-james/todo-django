@@ -70,7 +70,7 @@ class LogoutView(APIView):
         try:
             refresh_token = request.data.get("refresh")
             if refresh_token:
-                token = RefreshToken(refresh_token)
+                token = RefreshToken(refresh_token) # We won't send the refresh token to the user
                 # token.blacklist() ->deprecated
                 return Response({"message": "Logout successful."}, status=status.HTTP_205_RESET_CONTENT)
             else:
