@@ -1,4 +1,3 @@
-# from django.shortcuts import render
 from rest_framework import generics, permissions,status
 from .models import Todo,CustomUser
 from .serializers import TodoSerializer,UserSerializer
