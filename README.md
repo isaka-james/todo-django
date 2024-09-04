@@ -1,6 +1,8 @@
 # Todo Django App
 
-## Overview
+<p>
+  <img src="https://komarev.com/ghpvc/?username=isaka-django&label=Todo%20API&color=0e75b6&style=flat" alt="since 04 Sep,2024" />
+</p>
 
 # Todo Django Backend API
 
